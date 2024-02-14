@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goda Real Estate Group - Rabat, Casablanca, Marrakech, Tanger</title>
+    <!-- Ajoutez d'autres balises meta, feuilles de style ou scripts ici -->
+    <style>
+        /* Ajoutez vos styles CSS ici */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0080ff; /* Bleu */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* Styles pour la galerie de photos */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border: 2px solid #0080ff; /* Bordure bleue */
+        }
+
+        /* Styles pour la barre de recherche */
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-box {
+            padding: 10px;
+            width: 300px;
+            border: 2px solid #0080ff; /* Bordure bleue */
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .search-button {
+            background-color: #0080ff; /* Bleu */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Ajoutez plus de styles au besoin */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Goda Real Estate Group - Rabat, Casablanca, Marrakech, Tanger</h1>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>À Propos de Nous</h2>
+            <p>Bienvenue chez Goda Real Estate Group, votre destination pour les services immobiliers personnalisés au Maroc. Nous sommes fiers d'être le numéro 1 des services immobiliers personnalisés au Maroc, offrant une expertise exceptionnelle pour vous aider à trouver la propriété de vos rêves à Rabat, Casablanca, Marrakech, Tanger et dans tout le Maroc.</p>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <p>Nous offrons à notre clientèle un large choix de produits et services, y compris :</p>
+            <ul>
+                <li>Ventes Résidentielles</li>
+                <li>Ventes Commerciales</li>
+                <li>Gestion de Propriété</li>
+                <li>Services Professionnels Personnalisables</li>
+                <!-- Ajoutez plus de services au besoin -->
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerie de Photos</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <!-- Ajoutez plus d'images au besoin -->
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Nos Produits</h2>
+            <!-- Ajoutez ici la liste de vos produits -->
+        </section>
+
+        <section id="search">
+            <h2>Recherche</h2>
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Rechercher...">
+                <button class="search-button">Rechercher</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-Nous</h2>
+            <p>Si vous avez des questions ou des demandes, n'hésitez pas à nous contacter :</p>
+            <ul>
+                <li>Email: info@godarealestate.ma</li>
+                <li>Téléphone: +212 6 12345678</li>
+                <li>Adresse: 20700 Casablanca, Maroc</li>
+                <li>Disponibilité: Du lundi au samedi, de 9h à 18h</li>
+                <!-- Ajoutez plus de détails de contact au besoin -->
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
